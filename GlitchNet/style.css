@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lobster&family=Pacifico&family=Ysabeau+SC:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: palevioletred; */
+}
+header img{
+    width: 100vw;
+    height: 100vh;
+}
+.nav ul {
+    text-align: end;
+    justify-content: end;
+    margin: 0 20vw 0 0;
+}
+.nav ul li{
+    display: inline;
+    list-style: none;
+    margin:  0 7vw 0 7vw;
+}
+.nav ul li a{
+    text-decoration: none;
+    position:absolute;
+    top: 2vh;
+    color: #e75480;
+    font-size: 22px;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    list-style: none;
+}
+.nav ul li a:hover{
+    color:whitesmoke;
+}
+.nav ul li a::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color:whitesmoke ;
+    transition:widht .3;
+}
+.nav ul li a:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+.headline h1{
+    text-decoration: none;
+    position:absolute;
+    top: 2vh;
+    color: aquamarine;
+    font-size: 32px;
+    margin: 0 0 0 4vw;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+main img{
+    width: 100vw;
+    height: 100vh;
+    margin: -84px 0 0 0;
+}
+.button button input{
+    text-decoration: none;
+    position:absolute;
+    top: 50vh;
+    color: black;
+    margin: 0 0 0 2vw;
+    /* font-size: 35px; */
+    width: 20vw;
+    height: 5vh;
+    /* margin: 0 0 0 60vw; */
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    /* cursor: pointer; */
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.sign ul li a{
+    text-decoration: none;
+    position:absolute;
+    top: 2vh;
+    color:aquamarine;
+    border-radius: 3px;
+    font-size: 25px;
+    width: 18vh;
+    height: 5vh;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 0 15vw;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.sign ul li a:hover{
+    color:black;
+}
+.button button a:hover{
+    color:black;
+}
+.button p{
+    text-decoration: none;
+    position:absolute;
+    top: 60vh;
+    color: aquamarine;
+    font-size: 20px;
+    margin: 0 0 0 2vw;
+    width: 45vw;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.button2 button a{
+    text-decoration: none;
+    position:absolute;
+    top: 85vh;
+    color: aquamarine;
+    font-size: 20px;
+    margin: 0 0 0 2vw;
+    /* width: 45vw; */
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.button button input::placeholder{
+    color: black;
+}
+.form form{
+    position:absolute;
+    top: 140vh;
+    color: aqua;
+    font-size: 20px;
+    margin: 0 0 0 5vw;
+    /* width: 45vw; */
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-color: transparent;
+}
+.form input::placeholder{
+    color: black;
+    font-family: 'Ysabeau SC';
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.form h1{
+    text-decoration: none;
+    position:absolute;
+    top: -13vh;
+    color: aquamarine;
+    font-size: 20px;
+    margin: 0 0 0 0;
+    /* width: 45vw; */
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.form select option{
+    color: black;
+    font-family: 'Ysabeau SC';
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.form button{
+    color: black;
+    font-family: 'Ysabeau SC';
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.form input #reset{
+    color: black;
+    font-family: 'Ysabeau SC';
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.form select {
+    color: white;
+    font-family: 'Ysabeau SC';
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.slide {
+    width: 55%;
+    height: 50vh;
+    /* display: grid; */
+    position: absolute;
+    /* top: 140vh; */
+    box-shadow: 2px black;
+    animation: slider 10s infinite backwards;
+    transform: translate(-50%, -33%);
+    left: 50%;
+    top: 140%;
+    background-image: url('img/14.jpg');
+    background-size: 100% 100%;
+    margin: 0 0 0 20vw;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(img/15.jpg);
+    }
+
+    15% {
+        background-image: url(img/20.png);
+    }
+    30%{
+        background-image: url(img/21.jpg);
+    }
+
+    45% {
+        background-image: url(img/22.jpg);
+    }
+    65%{
+        background-image: url(img/24.jpg);
+    }
+    85%{
+        background-image: url(img/26.jpg);
+    }
+    100%{
+        background-image: url(img/14.jpg);
+    }
+}
+.slide0 {
+    width: 40%;
+    height: 50vh;
+    /* display: grid; */
+    position: absolute;
+    /* top: 140vh; */
+    box-shadow: 2px black;
+    animation: sliderr 10s infinite backwards;
+    transform: translate(-50%, -33%);
+    left: 50%;
+    top: 50%;
+    background-image: url('img/a.jpg');
+    background-size: 100% 100%;
+    margin: 0 0 0 25vw;
+}
+@keyframes sliderr {
+    0% {
+        background-image: url(img/a.jpg);
+    }
+
+    15% {
+        background-image: url(img/b.jpg);
+    }
+    30%{
+        background-image: url(img/c.jpg);
+    }
+    
+    45% {
+        background-image: url(img/20.png);
+    }
+    65%{
+        background-image: url(img/d.jpg);
+    }
+    85%{
+        background-image: url(img/e.jpg);
+    }
+    100%{
+        background-image: url(img/f.jpg);
+    }
+}
+.form marquee{
+    /* text-decoration: none; */
+    position:absolute;
+    top: -35vh;
+    color: aquamarine;
+    font-size: 25px;
+    margin: 0 0 0 130px;
+    width: 60vw;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.container img{
+    width: 100vw;
+    height: 100vh;
+    margin:  -8px 0 0 0;
+}
+.container h1{
+    /* text-decoration: none; */
+    position:absolute;
+    top: 205vh;
+    color: aquamarine;
+    font-size: 25px;
+    margin: 0 0 0 40vw;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);
+}
+.container marquee{
+    /* text-decoration: none; */
+    position:absolute;
+    top: 213vh;
+    color:aquamarine;
+    font-size: 25px;
+    margin: 0 0 0 3vw;
+    width: 50vw;
+    height: 70vh;
+    font-family: 'Ysabeau SC';
+    /* font-weight:bolder; */
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background:transparent;
+}
+.desimg {
+    width: 30%;
+    height: 50vh;
+    /* display: grid; */
+    position: absolute;
+    /* top: 140vh; */
+    box-shadow: 2px black;
+    animation: sliderrr 10s infinite backwards;
+    transform: translate(-50%, -33%);
+    left: 50%;
+    top: 240vh;
+    margin: 0 0 0 50vw;
+    background-image: url('img/a.jpg');
+    background-size: 100% 100%;
+    margin: 0 0 0 25vw;
+}
+@keyframes sliderrr {
+    0% {
+        background-image: url(img/a.jpg);
+    }
+
+    15% {
+        background-image: url(img/b.jpg);
+    }
+    30%{
+        background-image: url(img/c.jpg);
+    }
+    
+    45% {
+        background-image: url(img/20.png);
+    }
+    65%{
+        background-image: url(img/d.jpg);
+    }
+    85%{
+        background-image: url(img/e.jpg);
+    }
+    100%{
+        background-image: url(img/f.jpg);
+    }
+}
+.container marquee p{
+    color:linear-gradient(to right, rgb(255, 0, 200), blue);
+    font-family: 'Ysabeau SC' cursive;
+}
+.content img{
+    width: 100vw;
+    height: 100vh;
+    margin: -4px 0 0 0;
+}
+
+@media only screen and (max-width:900px){
+    header img{
+        width: 100%;
+        height: 100%;
+    }
+    .nav ul li a{
+        font-size: 1vh;
+        display: inline;
+        list-style: none;
+        text-align: end;
+        justify-content: end;
+        margin: 0 0 0 3rem;
+    }
+    .sign ul li a{
+        font-size: 1rem;
+        display: inline;
+        list-style: none;
+        text-align: start;
+        width: fit-content;
+        height:fit-content;
+        /* justify-content: end; */
+        margin: 0 0 0 30rem;
+    }
+    .headline h1{
+        font-size: 1rem;
+        display: inline;
+        list-style: none;
+        text-align: start;
+    }
+    .slide0{
+        width: 10rem;
+        height: 5rem;
+        top: 7rem;
+        margin: 0 0 0 5rem;
+}
+    .button button input{
+        font-size: 1vh;
+        display: inline;
+        list-style: none;
+        text-align: start;
+        top: 8rem;
+        width: 8rem;
+        height: 1rem;
+        margin: 0px 0px 0 1rem
+    }
+    .button p{
+        visibility:hidden;
+    }
+    .button2 button a{
+        font-size: 70%;
+    display: inline;
+    list-style: none;
+    text-align: start;
+    width: fit-content;
+    height: fit-content;
+    top: 12rem;
+    margin: 0 0 0 1rem;
+    }
+    main img{
+        width: 100%;
+        height: 100%;
+    }
+    .form form {
+        font-size: 1vw;
+    display: inline;
+    list-style: none;
+    text-align: start;
+    width: 15rem;
+    top: 20rem;
+    /* justify-content: end; */
+    margin: 0 0 0 0;
+    }
+    .form form h1{
+        font-size: 4vw;
+        top: -4vh;
+        display: inline;
+        list-style: none;
+        text-align: start;
+        width: fit-content;
+        height:fit-content;
+        /* justify-content: end; */
+        margin: 0 0 0 0;
+    }
+    .slide{
+        width: 8rem;
+    height: 4rem;
+    top: 21rem;
+    margin: 0 0 0 7rem;
+    }
+    .form form marquee{
+        font-size: 1rem;
+        display: inline;
+        list-style: none;
+        text-align: start;
+        width: 15rem;
+        height: 1.5rem;
+        top: -4rem;
+        /* justify-content: end; */
+        margin: 0 0 0 6rem;
+    }
+    .container img{
+        width: 100%;
+        height: 100%;
+    }
+    .container h1{
+        font-size: 1rem;
+        top: 30rem;
+        /* display: inline; */
+        list-style: none;
+        /* text-align: start; */
+        width: 12rem;
+        height: 1.5rem;
+        /* justify-content: end; */
+        margin: 0 0 0 -19rem;
+    }
+    .container marquee {
+        font-size: 1rem;
+        top: 32rem;
+        /* display: inline; */
+        list-style: none;
+        /* text-align: start; */
+        width: 14rem;
+        height: 9rem;
+        /* justify-content: end; */
+        margin: 0 0 0 -25rem;
+    }
+    .desimg{
+        top: 35rem;
+        width: 9rem;
+        height: 9rem;
+        margin: 0 0 0 7rem;
+    }
+    footer{
+        background-image: linear-gradient(to right, rgb(255, 0, 200), blue); 
+        width: 100%;
+        height: 100%;
+        margin: -24px 0 0 0 ;
+    }
+    footer img{
+        visibility: hidden;
+    }
+    
+}
+footer img{
+    width: 100%;
+    height: 100%;
+    margin: -24px 0 0 0;
+}
+.contact h1{
+    position:absolute;
+    top: 304vh;
+    color: aquamarine;
+    font-size: 25px;
+    margin: 0 0 0 1vw;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue); 
+}
+.contact marquee{
+    position:absolute;
+    top: 320vh;
+    color: black;
+    font-size: 25px;
+    margin: 0 0 0 10vw;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    /* background-image: linear-gradient(to right, rgb(255, 0, 200), blue);  */
+}
+.contact a img{
+    top: 330vh;
+    width: 4vw;
+    height: 8vh;
+    position: absolute;
+    margin: 0 0 0 10vw;
+    border-radius: 15%;
+}
+.face a img{
+    top: 330vh;
+    width: 4vw;
+    height: 8vh;
+    position: absolute;
+    margin: 0 0 0 15vw;
+    border-radius: 15%;
+}
+.face marquee{
+    position:absolute;
+    top: 408vh;
+    color: black;
+    font-size: 25px;
+    margin: 0 0 0 31vw;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    /* background-image: linear-gradient(to right, rgb(255, 0, 200), blue);  */
+}
+.query marquee{
+    position:absolute;
+    top: 350vh;
+    color: black;
+    font-size: 25px;
+    margin: 0 0 0 10vw;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    /* background-image: linear-gradient(to right, rgb(255, 0, 200), blue);  */
+}
+.query a img{
+    top: 360vh;
+    width: 3vw;
+    height: 7vh;
+    position: absolute;
+    margin: 0 0 0 10vw;
+    border-radius: 15%;
+}
+.discord marquee{
+    position:absolute;
+    top: 320vh;
+    color: black;
+    font-size: 25px;
+    margin: 0 0 0 50vw;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    /* background-image: linear-gradient(to right, rgb(255, 0, 200), blue);  */
+}
+.term button a{
+    position:absolute;
+    top: 410vh;
+    width: fit-content;
+    height: fit-content;
+    color: aquamarine;
+    justify-content: end;
+    font-size: 25px;
+    margin: 0 0 0 81vw;
+    text-decoration: none;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue); 
+}
+.find button  a{
+    position:absolute;
+    top: 330vh;
+    width: fit-content;
+    height: fit-content;
+    color: aquamarine;
+    font-size: 25px;
+    margin: 0 0 0 64vw;
+    text-decoration: none;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue); 
+}
+.find marquee{
+    position:absolute;
+    top: 370vh;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    font-size: 25px;
+    margin: 0 0 0 10vw;
+    text-decoration: none;
+    width:fit-content;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    /* background-image: linear-gradient(to right, rgb(255, 0, 200), blue);  */
+}
+.find img{
+    top: 380vh;
+    width: 3vw;
+    height: 7vh;
+    position: absolute;
+    margin: 0 0 0 10vw;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.sea img{
+    position:absolute;
+    top: 330vh;
+    color: aquamarine;
+    font-size: 25px;
+    margin: 0 0 0 68vw;
+    text-decoration: none;
+    width: 4vw;
+    height: 8vh;
+    font-family: 'Ysabeau SC';
+    font-weight:bolder;
+    display: inline;
+    cursor: pointer;
+    /* border: 2px solid purple; */
+    list-style: none;
+    background-image: linear-gradient(to right, rgb(255, 0, 200), blue);  
+}
+@media only screen and (max-width:900px){
+
+
+.term button a{
+    font-size: 1rem;
+    top: 48rem;
+    /* display: inline; */
+    list-style: none;
+    /* text-align: start; */
+    width: 9rem;
+    height: 1.5rem;
+    /* justify-content: end; */
+    margin: 0 0 0 16rem;
+    color: black;
+} 
+.face marquee{
+    font-size: 1rem;
+    top: 50rem;
+    /* display: inline; */
+    list-style: none;
+    /* text-align: start; */
+    width: 15rem;
+    height: 1.5rem;
+    /* justify-content: end; */
+    margin: 0 0 0 6rem;
+    color: black;
+}
+.discord marquee{
+    font-size: 1rem;
+    top: 46rem;
+    /* display: inline; */
+    list-style: none;
+    /* text-align: start; */
+    width: 15rem;
+    height: 1.5rem;
+    /* justify-content: end; */
+    margin: 0 0 0 0;
+    color: black;
+}
+.sea img{
+    top: 48rem;
+    /* display: inline; */
+    list-style: none;
+    /* text-align: start; */
+    width: 2rem;
+    height: 1.5rem;
+    /* justify-content: end; */
+    margin: 0 0 0 2rem;
+}
+
+}
